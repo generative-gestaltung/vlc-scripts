@@ -1,0 +1,1 @@
+vlc "bbb.mp4" :sout='#rtp{dst=192.168.178.48,port=1234,sdp=rtsp://192.168.178.48:8080/test.sdp}' 
